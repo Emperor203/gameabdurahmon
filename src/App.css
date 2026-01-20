@@ -1,0 +1,31 @@
+/* В App.css */
+.app-container {
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.75);
+  color: white;
+  text-align: center;
+  pointer-events: none; /* Чтобы клики проходили сквозь текст в игру */
+}
+
+#score {
+  position: absolute;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+  top: 30px;
+  right: 30px;
+  z-index: 10;
+}
